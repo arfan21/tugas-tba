@@ -28,10 +28,13 @@ List Verb :
 # <SB> ::= padre | madre | nonno | nonna
 # <VB> ::= raccolto | mangiare | pianta
 # <OB> ::= mela | mais | grano
+
+# example : padre reccolto mela
 ''')
 
 # input example
 sentence = input("Please enter something (only those in the list of verbs): ")
+print("=====================================================================\n")
 inputString = sentence.lower() + "#"
 
 # initialization
@@ -180,12 +183,11 @@ state = 'q0'
 currentToken = ""
 
 while state != 'accept':
-    print(state)
     currentCharInput = inputString[indexCharInput]
     currentToken += currentCharInput
     state = transition_table[(state, currentCharInput)]
     if state == 'q1':
-        print(f'current token: "{currentToken}" valid')
+        print(f'ACCEPTED : current token: "{currentToken}" valid')
         currentToken = ''
     if state == 'error':
         print(f'ERROR : current token: "{currentToken}"" is not valid')
@@ -193,4 +195,4 @@ while state != 'accept':
     indexCharInput += 1
 
 if state == 'accept':
-    print(f'semua token input: "{sentence}" is valid')
+    print(f'ACCEPTED : semua token input: "{sentence}" is valid')
