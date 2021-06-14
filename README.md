@@ -10,6 +10,5 @@ KELOMPOK :
 
 
 Instruksi Penggunaan :
-1. Buka file "Lexical Analyzer.ipynb" di atas
-2. Pada Google Colab, klik tombol play di sebelah kiri
-3. Pada bagian akhir kode akan muncul prompt untuk input kata, input kata-kata yang akan dicek
+1. Buka link colab dan jalankan 
+### [Link Collab](https://colab.research.google.com/drive/1jRIpQ7CUYQfTW_9c2XBkqNdHfYaw1XV7?usp=sharing)
