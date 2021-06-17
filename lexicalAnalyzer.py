@@ -14,7 +14,7 @@ import string
 
 # Object (OB):
 # grano (gandum)
-# mais (jagung)
+# mais (jagung) 
 # mela (apel)
 
 # CFG
