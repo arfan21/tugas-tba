@@ -1,8 +1,8 @@
 # Tugas Teori Bahasa Automata
 
 <p>
-  <a href="https://github.com/arfan21/tugas-tba/releases/tag/v1" target="_blank">
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <a href="https://github.com/arfan21/tugas-tba/releases/tag/v1.0.1" target="_blank">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.1-blue.svg?cacheSeconds=2592000" />
   </a>
 </p>
 
@@ -33,7 +33,7 @@
             git clone https://github.com/arfan21/tugas-tba.git
         ```
     - Link Download Source Code
-        ### [Download](https://github.com/arfan21/tugas-tba/archive/refs/tags/v1.zip)
+        ### [Download](https://github.com/arfan21/tugas-tba/archive/refs/tags/v1.0.1.zip)
 2. Menjalankan Program Lexical Analyzer
     - Python 2
     ```bash
