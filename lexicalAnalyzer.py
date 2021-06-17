@@ -14,7 +14,7 @@ import string
 
 # Object (OB):
 # grano (gandum)
-# mais (jagung) 
+# mais (jagung)
 # mela (apel)
 
 # CFG
@@ -24,7 +24,7 @@ import string
 # <OB> ::= mela | mais | grano
 
 print('''
-List Verb :
+List Kata :
 # <SB> ::= padre | madre | nonno | nonna
 # <VB> ::= raccolto | mangiare | pianta
 # <OB> ::= mela | mais | grano
@@ -33,7 +33,7 @@ List Verb :
 ''')
 
 # input example
-sentence = input("Please enter something (only those in the list of verbs): ")
+sentence = input("Input satu atau lebih kata (sesuai kamus/ list verb): ")
 print("=====================================================================\n")
 inputString = sentence.lower() + "#"
 
